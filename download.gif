@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://blog.hyperiondev.com/xmlrpc.php">
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>What is software engineering, and what does a software engineer do?</title>
+	<meta name="description" content="Software engineering dominates the rankings for highest paying jobs in the world – and with thousands of companies going online and remote, demand for these professionals is skyrocketing. In this post we take a look at what a software engineer does and how you can join this fast-growing field." />
+	<link rel="canonical" href="https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="What is software engineering, and what does a software engineer do?" />
+	<meta property="og:description" content="Software engineering dominates the rankings for highest paying jobs in the world – and with thousands of companies going online and remote, demand for these professionals is skyrocketing. In this post we take a look at what a software engineer does and how you can join this fast-growing field." />
+	<meta property="og:url" content="https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/" />
+	<meta property="og:site_name" content="HyperionDev Blog" />
+	<meta property="article:published_time" content="2021-01-25T09:35:11+00:00" />
+	<meta property="article:modified_time" content="2024-06-18T16:24:25+00:00" />
+	<meta property="og:image" content="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-Engineer_cover.jpg" />
+	<meta property="og:image:width" content="1633" />
+	<meta property="og:image:height" content="1005" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://18.191.204.15:443/#website","url":"https://18.191.204.15:443/","name":"HyperionDev Blog","description":"Software Development and Coding","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://18.191.204.15:443/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/#primaryimage","inLanguage":"en-US","url":"https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-Engineer_cover.jpg","contentUrl":"https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-Engineer_cover.jpg","width":1633,"height":1005},{"@type":"WebPage","@id":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/#webpage","url":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/","name":"What is software engineering, and what does a software engineer do?","isPartOf":{"@id":"https://18.191.204.15:443/#website"},"primaryImageOfPage":{"@id":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/#primaryimage"},"datePublished":"2021-01-25T09:35:11+00:00","dateModified":"2024-06-18T16:24:25+00:00","author":{"@id":"https://18.191.204.15:443/#/schema/person/8c31c03861c169a2887980bfa0539543"},"description":"Software engineering dominates the rankings for highest paying jobs in the world – and with thousands of companies going online and remote, demand for these professionals is skyrocketing. In this post we take a look at what a software engineer does and how you can join this fast-growing field.","breadcrumb":{"@id":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/"]}]},{"@type":"BreadcrumbList","@id":"https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://18.191.204.15:443/"},{"@type":"ListItem","position":2,"name":"What is software engineering, and what does a software engineer do?"}]},{"@type":"Person","@id":"https://18.191.204.15:443/#/schema/person/8c31c03861c169a2887980bfa0539543","name":"HyperionDev"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="HyperionDev Blog &raquo; Feed" href="https://blog.hyperiondev.com/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HyperionDev Blog &raquo; Comments Feed" href="https://blog.hyperiondev.com/index.php/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HyperionDev Blog &raquo; What is software engineering, and what does a software engineer do? Comments Feed" href="https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.hyperiondev.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.9"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='maxwell-theme-fonts-css'  href='https://blog.hyperiondev.com/wp-content/fonts/b895b60b552d51a7d4ec314e01f5dcdf.css?ver=20201110' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://blog.hyperiondev.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css-6-css'  href='https://blog.hyperiondev.com/wp-content/plugins/wp-font-awesome/font-awesome/css/fontawesome-all.min.css?ver=1.7.9' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css-4-css'  href='https://blog.hyperiondev.com/wp-content/plugins/wp-font-awesome/font-awesome/css/v4-shims.min.css?ver=1.7.9' type='text/css' media='all' />
+<link rel='stylesheet' id='maxwell-stylesheet-css'  href='https://blog.hyperiondev.com/wp-content/themes/maxwell/style.css?ver=2.4.0' type='text/css' media='all' />
+<style id='maxwell-stylesheet-inline-css' type='text/css'>
+.site-title, .site-description, .type-post .entry-footer .post-navigation { position: absolute; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; overflow: hidden; }
+</style>
+<link rel='stylesheet' id='maxwell-safari-flexbox-fixes-css'  href='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/css/safari-flexbox-fixes.css?ver=20200827' type='text/css' media='all' />
+<link rel='stylesheet' id='heateor_sss_frontend_css-css'  href='https://blog.hyperiondev.com/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.64' type='text/css' media='all' />
+<style id='heateor_sss_frontend_css-inline-css' type='text/css'>
+.heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}.heateor_sss_horizontal_sharing .heateor_sss_svg,.heateor_sss_standard_follow_icons_container .heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent}.heateor_sss_horizontal_sharing .heateorSssTCBackground{color:#666}.heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,.heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}.heateor_sss_vertical_sharing span.heateor_sss_svg,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent;}.heateor_sss_vertical_sharing .heateorSssTCBackground{color:#666;}.heateor_sss_vertical_sharing span.heateor_sss_svg:hover,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}div.heateor_sss_mobile_footer{display:none;}@media screen and (max-width:783px){div.heateor_sss_bottom_sharing .heateorSssTCBackground{background-color:white}div.heateor_sss_bottom_sharing{width:100%!important;left:0!important;}div.heateor_sss_bottom_sharing a{width:20% !important;}div.heateor_sss_bottom_sharing .heateor_sss_svg{width: 100% !important;}div.heateor_sss_bottom_sharing div.heateorSssTotalShareCount{font-size:1em!important;line-height:28px!important}div.heateor_sss_bottom_sharing div.heateorSssTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_sss_mobile_footer{display:block;height:40px;}.heateor_sss_bottom_sharing{padding:0!important;display:block!important;width:auto!important;bottom:-2px!important;top: auto!important;}.heateor_sss_bottom_sharing .heateor_sss_square_count{line-height:inherit;}.heateor_sss_bottom_sharing .heateorSssSharingArrow{display:none;}.heateor_sss_bottom_sharing .heateorSssTCBackground{margin-right:1.1em!important}}.heateorSssFacebookBackground{
+       border-radius: 0 5px 0 0;
+}
+
+.heateorSssWhatsappBackground{
+ border-radius: 0 0 5px 0;
+background-color:#25D366 !important;
+}
+
+.heateorSssEmailBackground{
+background-color:#F8CF7C !important;
+}
+</style>
+<link rel='stylesheet' id='jquery-lazyloadxt-spinner-css-css'  href='//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/css/jquery.lazyloadxt.spinner.css?ver=5.8.9' type='text/css' media='all' />
+<link rel='stylesheet' id='a3a3_lazy_load-css'  href='//blog.hyperiondev.com/wp-content/uploads/sass/a3_lazy_load.min.css?ver=1718799998' type='text/css' media='all' />
+<link rel='stylesheet' id='enlighterjs-css'  href='https://blog.hyperiondev.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css?ver=bmrpt4p/7GSvxNh' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/js/html5shiv.min.js?ver=3.7.3' id='html5shiv-js'></script>
+<![endif]-->
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/js/svgxuse.min.js?ver=1.2.6' id='svgxuse-js'></script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/plugins/jquery-updater/js/jquery-3.7.0.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/plugins/jquery-updater/js/jquery-migrate-3.4.0.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/js/jquery.flexslider-min.js?ver=2.6.0' id='jquery-flexslider-js'></script>
+<script type='text/javascript' id='maxwell-slider-js-extra'>
+/* <![CDATA[ */
+var maxwell_slider_params = {"animation":"slide","speed":"7000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/js/slider.js?ver=20170421' id='maxwell-slider-js'></script>
+<link rel="https://api.w.org/" href="https://blog.hyperiondev.com/index.php/wp-json/" /><link rel="alternate" type="application/json" href="https://blog.hyperiondev.com/index.php/wp-json/wp/v2/posts/4824" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.hyperiondev.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.hyperiondev.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.9" />
+<link rel='shortlink' href='https://blog.hyperiondev.com/?p=4824' />
+<link rel="alternate" type="application/json+oembed" href="https://blog.hyperiondev.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKTBJ4T');</script>
+<!-- End Google Tag Manager -->
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://blog.hyperiondev.com/wp-content/uploads/2018/08/favicon-1.png" sizes="32x32" />
+<link rel="icon" href="https://blog.hyperiondev.com/wp-content/uploads/2018/08/favicon-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blog.hyperiondev.com/wp-content/uploads/2018/08/favicon-1.png" />
+<meta name="msapplication-TileImage" content="https://blog.hyperiondev.com/wp-content/uploads/2018/08/favicon-1.png" />
+		<style type="text/css" id="wp-custom-css">
+			@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.post-slider-wrap {
+    position: relative;
+    background: rgba(16,52,82,0.06);
+}
+
+
+.entry-meta a:link, .entry-meta a:visited{
+	text-decoration: none;
+}
+
+
+.entry-content p:first-child {
+	padding-bottom: 1rem;
+}
+
+
+body{
+		font-family: 'Montserrat', Arial !important;
+}
+
+body a {
+	text-decoration: underline;
+}
+
+.entry-content p:first-child{
+			font-family: 'Montserrat', Arial !important;
+}
+
+.home .entry-content p:first-child, .archive .entry-content p:first-child{
+	font-size: 0.8rem;
+	line-height: 1.15rem;
+}
+
+.entry-content {
+				font-family: 'Montserrat', Arial !important;
+				font-size: 1rem;
+}
+
+
+.post-slider-controls .zeeflex-direction-nav a:before {
+	text-decoration: none;
+}
+
+
+.post-slider-controls .zeeflex-direction-nav a{
+	background: #123551;
+}
+
+.entry-title a:link {
+	font-family: 'Montserrat', Arial;
+	color: #3776A4 !important;
+	font-size: 1rem;
+	line-height: 1.5rem !important;
+	padding-top: 10px;
+	display: block;
+}
+
+.slide-title a:link {
+	font-family: 'Montserrat', Arial;
+	color: #3776A4 !important;
+	font-size: 22px;
+	line-height: 32px !important;
+	padding-top: 10px;
+	display: block;
+}
+
+.entry-title a:hover {
+	text-decoration: none;
+	color: #3776A4 !important;
+}
+
+a:link, a:visited {
+		font-family: 'Montserrat', Arial;
+	color: #3776A4;
+}
+
+.widget {
+	font-size: 12px;
+}
+
+.widget-title {
+		font-family: 'Montserrat', Arial;
+	color: #123551;
+	font-weight: 900;
+	font-size: 22px;
+}
+
+.page-title, .entry-title {
+			font-family: 'Montserrat', Arial;
+		font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    margin-bottom: 0.5em;
+}
+
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background: #AA8540;
+	border-radius: 5px;
+}
+
+.main-navigation-menu a:link {
+		font-family: 'Montserrat', Arial;
+	color: #FFFFF;
+	font-size: 16px;
+}
+
+.main-navigation-menu a:hover {
+	color: #3776A4;
+}
+
+
+.more-link {
+	background: #AA8540;
+	border-radius: 5px;
+}
+
+a:link, a {
+	color: #3776A4;
+	text-decoration: none;
+
+}
+
+li.cat-item {
+	color: lightgray;
+}
+
+.site-footer .site-info {
+	display: none;
+}
+
+.pagination .current {
+		background: #AA8540;
+}
+.pagination a:hover {
+		background: #AA8540;
+}
+
+.sendgrid_mc_fields{
+	padding:0 !important;
+}
+
+.header-widget-title{
+	margin:0;
+	display:inline-block;
+	padding-right:10px;
+}
+
+.sendgrid_mc_label_div{
+	display:none;
+}
+
+.sendgrid_mc_fields, .sendgrid_mc_button_div{
+	display:inline-block;
+}
+
+.sendgrid_mc_button{
+	border-radius: 5px !important;
+	margin-left:5px !important;
+	padding: 0.35em 0.8em !important;
+}
+
+.sendgrid_mc_button > i{
+	font-size:20px;
+}
+
+.sendgrid_mc_input_email{
+		border-radius: 5px !important;
+}
+
+#sendgrid_mc_email{
+	border:solid 1px #3776a4 !important;
+	color:black !important;
+}
+
+.mc_email_form{
+	padding:0 !important;
+	display:inline-block;
+}
+
+.widget_sendgrid_nlvx_widget{
+	width:50%
+}
+
+.sendgrid_widget_success{
+	margin:0 !important;
+	font-size: 14px !important;
+	width: 65%;
+}
+
+@media (min-width: 300px) and  (max-width: 675px){
+	.widget_sendgrid_nlvx_widget{
+		width:100%
+	}
+
+	.sendgrid_widget_success{
+		width: 100%;
+	}
+	#post-slider-container{
+		display:none;
+	}
+}
+
+.btn-primary{
+	text-decoration:none;
+	border:solid 1.5px #c39c4a;
+	font-weight:bold;
+	border-radius:2.5px;
+	padding:0.4rem;
+	color:#c39c4a !important;
+	cursor:pointer;
+	font-size:14px
+}
+
+.btn-primary:hover{
+	color:white !important;
+	background:#c39c4a;
+}
+
+.course-header{
+	font-size:20px;
+}
+
+.course-block{
+	min-height:10em;
+}
+
+.course-center{
+	margin-top:1em;
+	margin-bottom:0.5em;
+	padding-bottom:1em;
+}
+
+.course-card-image > img{
+
+	position: relative;
+	top: 12px;
+}
+
+.course-card-content{
+	  height: 13em;
+    position: relative;
+    top: 0px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    border: solid 1px #E5E5E5;
+    border-top: 0;
+}
+
+.sgpb-popup-close-button-1{
+	top:15px;
+}
+
+#sgpb-popup-dialog-main-div{
+	background:#123451 !important;
+	border-bottom-width: 0px !important; 
+	text-align:center;
+	color:white
+}
+
+.subscribe-widget > h3{
+	font-size:30px;
+	margin-bottom:0;
+	font-weight:bold;
+}
+
+.subscribe-widget > h4{
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.subscribe-widget > p{
+	font-size:12px;
+	margin-bottom:20px;
+	margin-top:30px;
+	color:#75a7cd;
+}
+
+.add-news::placeholder{
+	color:white !important;
+}
+
+.register-button{
+	position:relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-4824 single-format-standard custom-background wp-custom-logo wp-embed-responsive post-layout-two-columns post-layout-columns date-hidden elementor-default elementor-kit-5451">
+
+	
+	
+	<div id="page" class="hfeed site">
+
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		
+		<header id="masthead" class="site-header clearfix" role="banner">
+
+			<div class="header-main container clearfix">
+
+				<div id="logo" class="site-branding clearfix">
+
+					<a href="https://blog.hyperiondev.com/" class="custom-logo-link" rel="home" data-wpel-link="internal"><img width="354" height="54" src="https://blog.hyperiondev.com/wp-content/uploads/2018/08/blog.jpg" class="custom-logo" alt="HyperionDev Blog" /></a>					
+			<p class="site-title"><a href="https://blog.hyperiondev.com/" rel="home" data-wpel-link="internal">HyperionDev Blog</a></p>
+
+								
+			<p class="site-description">Software Development and Coding</p>
+
+			
+				</div><!-- .site-branding -->
+
+				<div class="header-widgets clearfix">
+
+					<aside id="custom_html-12" class="widget_text header-widget widget_custom_html"><div class="textwidget custom-html-widget"><button class="register-button-header">
+Learn to code now </button></div></aside>
+				</div><!-- .header-widgets -->
+
+			</div><!-- .header-main -->
+
+			
+
+	<div id="main-navigation-wrap" class="primary-navigation-wrap">
+
+		
+		<button class="primary-menu-toggle menu-toggle" aria-controls="primary-menu" aria-expanded="false" >
+			<svg class="icon icon-menu" aria-hidden="true" role="img"> <use xlink:href="https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/icons/genericons-neue.svg#menu"></use> </svg><svg class="icon icon-close" aria-hidden="true" role="img"> <use xlink:href="https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/icons/genericons-neue.svg#close"></use> </svg>			<span class="menu-toggle-text">Navigation</span>
+		</button>
+
+		<div class="primary-navigation">
+
+			<nav id="site-navigation" class="main-navigation" role="navigation"  aria-label="Primary Menu">
+
+				<ul id="primary-menu" class="menu"><li id="menu-item-2891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2891"><a href="https://blog.hyperiondev.com" data-wpel-link="internal">Latest Posts</a></li>
+<li id="menu-item-2821" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2821"><a href="https://www.hyperiondev.com/human-mentoring/" data-wpel-link="internal">Our Method</a></li>
+<li id="menu-item-2822" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2822"><a href="https://www.hyperiondev.com/bootcamps/" data-wpel-link="internal">Bootcamps</a></li>
+<li id="menu-item-2823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2823"><a href="https://www.hyperiondev.com/stories/" data-wpel-link="internal">Alumni</a></li>
+<li id="menu-item-2825" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2825"><a href="https://www.hyperiondev.com/contact/" data-wpel-link="internal">Contact Us</a></li>
+<li id="menu-item-2824" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2824"><a href="https://www.hyperiondev.com/pricing/" data-wpel-link="internal">Tuition</a></li>
+</ul>			</nav><!-- #site-navigation -->
+
+		</div><!-- .primary-navigation -->
+
+	</div>
+
+
+
+		</header><!-- #masthead -->
+
+		
+		
+		<div id="content" class="site-content container clearfix">
+
+			
+	<section id="primary" class="content-single content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-4824" class="post-4824 post type-post status-publish format-standard has-post-thumbnail hentry category-coding-careers category-software-development tag-software-engineering tag-software-engineer">
+
+	<img width="850" height="523" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-Engineer_cover.jpg" class="lazy lazy-hidden attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" /><noscript><img width="850" height="523" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-Engineer_cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" /></noscript>
+	<header class="entry-header">
+
+		<div class="entry-meta"><span class="meta-date"><a href="https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/" title="9:35 am" rel="bookmark" data-wpel-link="internal"><time class="entry-date published updated" datetime="2021-01-25T09:35:11+00:00">January 25, 2021</time></a></span><span class="meta-category"> <a href="https://blog.hyperiondev.com/index.php/category/coding-careers/" data-wpel-link="internal">Coding Careers</a> / <a href="https://blog.hyperiondev.com/index.php/category/software-development/" data-wpel-link="internal">Software Development</a></span></div>
+		<h1 class="entry-title">What is software engineering, and what does a software engineer do?</h1>
+		<div class="posted-by"> Posted by <span class="meta-author"> <span class="author vcard"><a class="url fn n" href="https://blog.hyperiondev.com/index.php/author/weronikad/" title="View all posts by HyperionDev" rel="author" data-wpel-link="internal">HyperionDev</a></span></span></div>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content clearfix">
+
+		<p><em><span style="font-weight: 400;">We&#8217;ve all seen the headlines and reports: if you’re looking for a career space that pays extremely high salaries and will always have a job for you, software engineering is the industry for you. With billions of people on the internet and using technology to connect, work, and relax, and hundreds of thousands of businesses going online and remote to adapt to the changing economic landscape, software engineers are in high demand and paid very well for what they do.</span></em></p>
+<p><em><span style="font-weight: 400;">But what is software engineering, what does a software engineer do, what is the industry really like, and how does one get into the field? We will be answering all of those questions below.</span></em></p>
+<p>&nbsp;</p>
+<h3><b>What does a software engineer do?</b></h3>
+<p><span style="font-weight: 400;">Software engineers use programming languages, databases, servers, frameworks,  and other technologies to turn an idea into an app, a game, a robot, an operating system, and many, many other useful computer products. </span></p>
+<p><img loading="lazy" class="lazy lazy-hidden alignnone size-full wp-image-4825" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software_Engineering.gif" alt="Software Engineer" width="1000" height="543" /><noscript><img loading="lazy" class="alignnone size-full wp-image-4825" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software_Engineering.gif" alt="Software Engineer" width="1000" height="543" /></noscript></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">The typical work routine of a software engineer is quite varied, but it usually involves most of the following:</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Interacting with clients or users to figure out what they want from a piece of software or product</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Designing, developing, and testing the software that their client wants. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Creating documentation of the system and how it works so that the clients and users can understand it and make better use of it</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Keeping the system or software running in good order, with regular maintenance, testing, and updates.</span></li>
+</ul>
+<p><span style="font-weight: 400;">In general, a software engineer figures out what problem their client is having, figures out a solution to it, and works with their team to create a piece of software that solves that problem (with additional work to keep that software usable and stable in the long term). </span></p>
+<p>&nbsp;</p>
+<h3><b>How do you start out in becoming a software engineer?</b></h3>
+<p><a href="https://blog.hyperiondev.com/index.php/2020/07/13/beginners-tips-learning-code/" data-wpel-link="internal"><span style="font-weight: 400;">Every software engineer starts with the basics</span></a><span style="font-weight: 400;">: they develop their fundamental skills in programming by learning one or more computer programming languages. </span></p>
+<p><span style="font-weight: 400;">There are thousands to choose from, with the most popular ones being widely recognised languages like Python, Java, Ruby, Go, Swift, C#, and many more, which power your computer’s operating system and programs, the games you play, the apps you use, and the device you’re reading this on. </span></p>
+<p><span style="font-weight: 400;">Traditionally, you’d need to study computer science for years at a university to get into the software engineering field. This can be a challenge because of the barriers of entry, high cost, and time commitment of a university degree; however, in recent years an increasing amount of focus is being placed on your abilities rather than your qualifications. </span></p>
+<p><span style="font-weight: 400;">More and more, companies are realising that skilled software engineers don’t need to have gone to university for fours years, leaving online courses and coding bootcamps as accessible, affordable ways to learn the skills you need to build a portfolio of software that’ll get you hired. </span></p>
+<p>&nbsp;</p>
+<h3><b>What skills does a software engineer need?</b></h3>
+<p><span style="font-weight: 400;">To be a good <a href="https://www.hyperiondev.com/bootcamps/data_science_bootcamp/" data-wpel-link="internal">software engineer</a>, you should be methodological, able to solve problems in efficient ways, and able to think logically and abstractly. </span></p>
+<p><a href="https://blog.hyperiondev.com/index.php/2020/08/19/5-ways-to-know-if-youre-a-good-coder/" data-wpel-link="internal"><span style="font-weight: 400;">Here’s a short list of the skills you should have as a software engineer</span></a><span style="font-weight: 400;">: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Problem solving</strong> &#8211; A curiosity for understanding a problem and trying to fix it through trial and error is a must-have for programmers. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>A quick learner</strong> &#8211; The ability to grasp structure and logic quickly makes learning new techniques and ways to solve difficult problems that much easier</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>An attitude of constant self-learning</strong> &#8211; A good programmer needs to remain aware of the latest coding practices and tools to ensure their code is lean, efficient, and up-to-date</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>High-level of abstraction</strong> &#8211; figuring out a problem is tough, but finding ways to turn your solution into written code that works is a whole other challenge. A good programmer should be able to imagine real-world implementations of his solution. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Objectivity and refinement</strong> &#8211; there’s no space to get touchy about the programs you write, as they can always be improved. A good programmer knows there are always quicker, faster, more efficient, less resource-hungry ways of writing a piece of code. </span></li>
+</ul>
+<p>&nbsp;</p>
+<h3><b>What is the career path for a software engineer?</b></h3>
+<p><span style="font-weight: 400;">Once you’ve developed a good baseline of professional software engineer skills, there are three major branches of software engineering that you can pursue.</span></p>
+<p><img loading="lazy" class="lazy lazy-hidden alignnone size-full wp-image-4826" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-developer.jpg" alt="Software Engineer" width="1041" height="306" /><noscript><img loading="lazy" class="alignnone size-full wp-image-4826" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Software-developer.jpg" alt="Software Engineer" width="1041" height="306" /></noscript></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Software developer/programmer</strong> &#8211; this is the person at the heart of the software. A software developer writes all the code that makes the system of software work. WIthout them, there would be no working application or piece of software. </span></li>
+</ul>
+<p><img loading="lazy" class="lazy lazy-hidden alignnone size-full wp-image-4828" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Systems-Engineer-1.jpg" alt="Software Engineer" width="1041" height="306" /><noscript><img loading="lazy" class="alignnone size-full wp-image-4828" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Systems-Engineer-1.jpg" alt="Software Engineer" width="1041" height="306" /></noscript></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Systems engineers</strong> &#8211; systems engineers still write code and create software applications, but take on a more strategic role. They develop code and do hands-on programming work, but the majority of their efforts are spent on how to design, integrate, and manage complex systems over their life cycles.</span></li>
+</ul>
+<p><img loading="lazy" class="lazy lazy-hidden alignnone size-full wp-image-4830" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Developer-operations.jpg" alt="Software Engineer" width="1041" height="306" /><noscript><img loading="lazy" class="alignnone size-full wp-image-4830" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Developer-operations.jpg" alt="Software Engineer" width="1041" height="306" /></noscript></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><strong>Developer operations (DevOps)</strong> &#8211; this is perhaps the most strategic, high-level kind of software engineer work you can pursue. It is the most strategic of the three, and it combines IT, software engineering, and business management to decide what kinds of technology a business needs and the process for implementing those technologies. </span></li>
+</ul>
+<p><span style="font-weight: 400;">Of course, being a software engineer has nearly limited potential outside of just these three broad roles, simply because of how in-demand developer skills have become. The fundamental skills that you learn as a software engineer translate to almost any tech job, even if that organisation uses different programming languages and technology stacks. </span></p>
+<p><span style="font-weight: 400;">Perhaps the best thing about software engineering</span><a href="https://blog.hyperiondev.com/index.php/2020/01/28/programming-ticket-bright-future-regardless-geo-location/" data-wpel-link="internal"><span style="font-weight: 400;"> is that you can work anywhere in the world</span></a><span style="font-weight: 400;">, since nearly every country in the world is hungry for skilled developers. In the past decade, </span><a href="https://businesstech.co.za/news/lifestyle/323283/these-30-jobs-could-get-you-a-visa-for-the-uk-new-zealand-and-australia/" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><span style="font-weight: 400;">almost every country has added developer jobs to their critical skills lists</span></a><span style="font-weight: 400;">, which will get you a priority visa to work in their country.</span></p>
+<p>&nbsp;</p>
+<h3><b>How much does a software engineer earn?</b></h3>
+<p><a href="https://www.payscale.com/research/ZA/Job=Software_Engineer/Salary" data-wpel-link="external" target="_blank" rel="external noopener noreferrer"><span style="font-weight: 400;">According to PayScale</span></a><span style="font-weight: 400;">, the average annual salary of a software engineer is R366,532.</span></p>
+<p><span style="font-weight: 400;">This pay level depends on various factors, such as the number of years you’ve spent on the job. Here’s what PayScale says the average data scientist’s pay looks like over the course of their career:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Beginner pay: </span><span style="font-weight: 400;">R178,000 &#8211; R483,000 per year</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Middle pay: </span><span style="font-weight: 400;">R337,000 &#8211; R912,000 per year</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Senior pay: </span><span style="font-weight: 400;">R397,000 &#8211; R1,000,000+ per year</span></li>
+</ul>
+<p><span style="font-weight: 400;"><img loading="lazy" class="lazy lazy-hidden alignnone size-full wp-image-4831" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Graph.jpg" alt="Software Engineer" width="931" height="627" /><noscript><img loading="lazy" class="alignnone size-full wp-image-4831" src="https://blog.hyperiondev.com/wp-content/uploads/2021/01/Graph.jpg" alt="Software Engineer" width="931" height="627" /></noscript>In fact, software engineering routinely </span><a href="https://blog.hyperiondev.com/index.php/2020/03/05/the-top-ten-tech-careers-in-2020/" data-wpel-link="internal"><span style="font-weight: 400;">dominates the global rankings for best and highest-paying careers</span></a><span style="font-weight: 400;">, with skilled senior developers taking home six- or even seven-figure salaries for the work they do. </span></p>
+<p><span style="font-weight: 400;">Software engineering is, simply put, one of the best careers to get into, </span><a href="https://blog.hyperiondev.com/index.php/2020/09/03/become-software-developer/" data-wpel-link="internal"><span style="font-weight: 400;">for a variety of reasons</span></a><span style="font-weight: 400;">:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">It pays extremely well. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">It has low barriers for entry, as anyone can learn to code.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Software engineering relies on learning skills that are in greater demand than ever before, and which are highly transferable. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">It has a high potential for international and fully-remote work, meaning you can work for any company in the world without ever having to commute again. </span></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Are you thinking about becoming a software developer so that you can benefit from amazing salaries, fulfilling work, incredible career opportunities at home and overseas, and some of the best job security around? Our specialised 1-on-1 mentor-led coding bootcamps will help you to learn practical software development skills to build a portfolio of real software apps and become job-ready for your new career in tech in months and not years. Best of all, they can be taken online or part-time to suit your schedule, so that you can fit a tech future into your spare time. </span></p>
+<p><a href="http://www.hyperiondev.com/" data-wpel-link="internal"><span style="font-weight: 400;">Sign up for our free trial</span></a><span style="font-weight: 400;">, or </span><a href="http://www.hyperiondev.com/contact" data-wpel-link="internal"><span style="font-weight: 400;">contact an admissions consultant</span></a><span style="font-weight: 400;"> to discover your personalised plan. </span></p>
+<p><span style="font-weight: 400;">You can also </span><a href="http://www.hyperiondev.com/courses" data-wpel-link="internal"><span style="font-weight: 400;">check out our list of other essential tech bootcamps</span></a><span style="font-weight: 400;"> in web development and data science if you think that software engineering is not for you. </span></p>
+<div class="widget_text awac-wrapper"><div class="widget_text awac widget custom_html-14"><div class="textwidget custom-html-widget"><a href="https://www.hyperiondev.com/" data-wpel-link="internal"><img class="lazy lazy-hidden" style="padding-top:3em;" alt="register" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/Blog-CTAs-Recovered-1.jpg"><noscript><img class="lazy lazy-hidden" style="padding-top:3em;" alt="register" src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/Blog-CTAs-Recovered-1.jpg"><noscript><img style="padding-top:3em;" alt="register" src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/Blog-CTAs-Recovered-1.jpg"></noscript></noscript>
+</a></div></div></div><div class='heateor_sss_sharing_container heateor_sss_vertical_sharing heateor_sss_bottom_sharing' style='width:44px;left: -10px;top: 100px;-webkit-box-shadow:none;box-shadow:none;' data-heateor-sss-href='https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/'><div class="heateor_sss_sharing_ul"><a aria-label="Facebook" class="heateor_sss_facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F" title="Facebook" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle" data-wpel-link="internal"><span class="heateor_sss_svg" style="background-color:#0765FE;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a aria-label="Twitter" class="heateor_sss_button_twitter" href="http://twitter.com/intent/tweet?text=What%20is%20software%20engineering%2C%20and%20what%20does%20a%20software%20engineer%20do%3F&amp;url=https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F" title="Twitter" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle" data-wpel-link="internal"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_twitter" style="background-color:#55acee;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -4 39 39"><path d="M28 8.557a9.913 9.913 0 0 1-2.828.775 4.93 4.93 0 0 0 2.166-2.725 9.738 9.738 0 0 1-3.13 1.194 4.92 4.92 0 0 0-3.593-1.55 4.924 4.924 0 0 0-4.794 6.049c-4.09-.21-7.72-2.17-10.15-5.15a4.942 4.942 0 0 0-.665 2.477c0 1.71.87 3.214 2.19 4.1a4.968 4.968 0 0 1-2.23-.616v.06c0 2.39 1.7 4.38 3.952 4.83-.414.115-.85.174-1.297.174-.318 0-.626-.03-.928-.086a4.935 4.935 0 0 0 4.6 3.42 9.893 9.893 0 0 1-6.114 2.107c-.398 0-.79-.023-1.175-.068a13.953 13.953 0 0 0 7.55 2.213c9.056 0 14.01-7.507 14.01-14.013 0-.213-.005-.426-.015-.637.96-.695 1.795-1.56 2.455-2.55z" fill="#fff"></path></svg></span></a><a aria-label="Linkedin" class="heateor_sss_button_linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F" title="Linkedin" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle" data-wpel-link="internal"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_linkedin" style="background-color:#0077b5;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path d="M6.227 12.61h4.19v13.48h-4.19V12.61zm2.095-6.7a2.43 2.43 0 0 1 0 4.86c-1.344 0-2.428-1.09-2.428-2.43s1.084-2.43 2.428-2.43m4.72 6.7h4.02v1.84h.058c.56-1.058 1.927-2.176 3.965-2.176 4.238 0 5.02 2.792 5.02 6.42v7.395h-4.183v-6.56c0-1.564-.03-3.574-2.178-3.574-2.18 0-2.514 1.7-2.514 3.46v6.668h-4.187V12.61z" fill="#fff"></path></svg></span></a><a aria-label="Email" class="heateor_sss_email" href="https://blog.hyperiondev.com/index.php/2021/01/25/software-engineering-software-engineer/" onclick="event.preventDefault();window.open(&#039;mailto:?subject=&#039; + decodeURIComponent(&#039;What%20is%20software%20engineering%2C%20and%20what%20does%20a%20software%20engineer%20do%3F&#039;).replace(&#039;&amp;&#039;, &#039;%26&#039;) + &#039;&amp;body=https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F&#039;, &#039;_blank&#039;)" title="Email" rel="nofollow noopener" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle" data-wpel-link="internal"><span class="heateor_sss_svg" style="background-color:#649a3f;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-.75 -.5 36 36"><path d="M 5.5 11 h 23 v 1 l -11 6 l -11 -6 v -1 m 0 2 l 11 6 l 11 -6 v 11 h -22 v -11" stroke-width="1" fill="#fff"></path></svg></span></a><a aria-label="Whatsapp" class="heateor_sss_whatsapp" href="https://api.whatsapp.com/send?text=What%20is%20software%20engineering%2C%20and%20what%20does%20a%20software%20engineer%20do%3F%20https%3A%2F%2Fblog.hyperiondev.com%2Findex.php%2F2021%2F01%2F25%2Fsoftware-engineering-software-engineer%2F" title="Whatsapp" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle" data-wpel-link="internal"><span class="heateor_sss_svg" style="background-color:#55eb4c;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg style="display:block;" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-6 -5 40 40"><path class="heateor_sss_svg_stroke heateor_sss_no_fill" stroke="#fff" stroke-width="2" fill="none" d="M 11.579798566743314 24.396926207859085 A 10 10 0 1 0 6.808479557110079 20.73576436351046"></path><path d="M 7 19 l -1 6 l 6 -1" class="heateor_sss_no_fill heateor_sss_svg_stroke" stroke="#fff" stroke-width="2" fill="none"></path><path d="M 10 10 q -1 8 8 11 c 5 -1 0 -6 -1 -3 q -4 -3 -5 -5 c 4 -2 -1 -5 -1 -4" fill="#fff"></path></svg></span></a></div><div class="heateorSssClear"></div></div>
+		
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+
+		
+			<div class="entry-tags clearfix">
+				<span class="meta-tags">
+					<a href="https://blog.hyperiondev.com/index.php/tag/software-engineering/" rel="tag" data-wpel-link="internal">Software Engineering</a><a href="https://blog.hyperiondev.com/index.php/tag/software-engineer/" rel="tag" data-wpel-link="internal">Software Engineer</a>				</span>
+			</div><!-- .entry-tags -->
+
+							
+	</footer><!-- .entry-footer -->
+
+</article>
+
+<div id="comments" class="comments-area">
+
+	
+	
+	
+	
+</div><!-- #comments -->
+
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+	
+	<section id="secondary" class="sidebar widget-area clearfix" role="complementary">
+
+		<aside id="search-8" class="widget widget_search clearfix">
+<form role="search" method="get" class="search-form" action="https://blog.hyperiondev.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field"
+			placeholder="Search &hellip;"
+			value="" name="s"
+			title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<svg class="icon icon-search" aria-hidden="true" role="img"> <use xlink:href="https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/icons/genericons-neue.svg#search"></use> </svg>		<span class="screen-reader-text">Search</span>
+	</button>
+</form>
+</aside><aside id="categories-3" class="widget widget_categories clearfix"><div class="widget-header"><h3 class="widget-title">Categories</h3></div>
+			<ul>
+					<li class="cat-item cat-item-5"><a href="https://blog.hyperiondev.com/index.php/category/coding-careers/" data-wpel-link="internal">Coding Careers</a> (179)
+</li>
+	<li class="cat-item cat-item-467"><a href="https://blog.hyperiondev.com/index.php/category/funding/" data-wpel-link="internal">Funding</a> (5)
+</li>
+	<li class="cat-item cat-item-6"><a href="https://blog.hyperiondev.com/index.php/category/software-development/" data-wpel-link="internal">Software Development</a> (102)
+</li>
+	<li class="cat-item cat-item-343"><a href="https://blog.hyperiondev.com/index.php/category/data-science/" data-wpel-link="internal">Data Science</a> (24)
+</li>
+	<li class="cat-item cat-item-614"><a href="https://blog.hyperiondev.com/index.php/category/cyber-security/" data-wpel-link="internal">Cyber Security</a> (1)
+</li>
+	<li class="cat-item cat-item-18"><a href="https://blog.hyperiondev.com/index.php/category/web-dev/" data-wpel-link="internal">Web Development</a> (53)
+</li>
+	<li class="cat-item cat-item-17"><a href="https://blog.hyperiondev.com/index.php/category/mobile-dev/" data-wpel-link="internal">Mobile Development</a> (17)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://blog.hyperiondev.com/index.php/category/news-and-press/" data-wpel-link="internal">News and Press</a> (57)
+</li>
+	<li class="cat-item cat-item-4"><a href="https://blog.hyperiondev.com/index.php/category/free-resources/" data-wpel-link="internal">Free Resources</a> (52)
+</li>
+	<li class="cat-item cat-item-7"><a href="https://blog.hyperiondev.com/index.php/category/student-success-stories/" data-wpel-link="internal">Student Success Stories</a> (93)
+</li>
+	<li class="cat-item cat-item-475"><a href="https://blog.hyperiondev.com/index.php/category/student-spotlight-stories/" data-wpel-link="internal">Student Spotlight Stories</a> (15)
+</li>
+	<li class="cat-item cat-item-579"><a href="https://blog.hyperiondev.com/index.php/category/employer-stories/" data-wpel-link="internal">Employer Stories</a> (2)
+</li>
+	<li class="cat-item cat-item-34"><a href="https://blog.hyperiondev.com/index.php/category/tutorials/" data-wpel-link="internal">Tutorials</a> (23)
+</li>
+	<li class="cat-item cat-item-509"><a href="https://blog.hyperiondev.com/index.php/category/education/" data-wpel-link="internal">Education</a> (10)
+</li>
+	<li class="cat-item cat-item-25"><a href="https://blog.hyperiondev.com/index.php/category/learning-platforms/" data-wpel-link="internal">Learning Platforms</a> (42)
+</li>
+	<li class="cat-item cat-item-44"><a href="https://blog.hyperiondev.com/index.php/category/software-platforms/" data-wpel-link="internal">Software Platforms</a> (12)
+</li>
+	<li class="cat-item cat-item-45"><a href="https://blog.hyperiondev.com/index.php/category/programming-information/" data-wpel-link="internal">Programming Information</a> (107)
+</li>
+	<li class="cat-item cat-item-624"><a href="https://blog.hyperiondev.com/index.php/category/essential-tech-skills/" data-wpel-link="internal">Essential tech skills</a> (2)
+</li>
+	<li class="cat-item cat-item-573"><a href="https://blog.hyperiondev.com/index.php/category/women-in-code/" data-wpel-link="internal">Women in code</a> (9)
+</li>
+	<li class="cat-item cat-item-390"><a href="https://blog.hyperiondev.com/index.php/category/hyperiondev-team/" data-wpel-link="internal">HyperionDev Team</a> (29)
+</li>
+	<li class="cat-item cat-item-460"><a href="https://blog.hyperiondev.com/index.php/category/hyperiondev-success-data/" data-wpel-link="internal">HyperionDev success data</a> (20)
+</li>
+	<li class="cat-item cat-item-461"><a href="https://blog.hyperiondev.com/index.php/category/hyperiondev-teacher-perspective/" data-wpel-link="internal">HyperionDev teacher perspective</a> (8)
+</li>
+	<li class="cat-item cat-item-504"><a href="https://blog.hyperiondev.com/index.php/category/hyperiondev-jobs/" data-wpel-link="internal">HyperionDev Jobs</a> (2)
+</li>
+			</ul>
+
+			</aside>
+		<aside id="recent-posts-3" class="widget widget_recent_entries clearfix">
+		<div class="widget-header"><h3 class="widget-title">Recent Posts</h3></div>
+		<ul>
+											<li>
+					<a href="https://blog.hyperiondev.com/index.php/2024/06/19/miss-sa-asus-tech-scholarship-winners/" data-wpel-link="internal">Celebrating the winners of the HyperionDev, Miss South Africa, and ASUS Tech Scholarship</a>
+									</li>
+											<li>
+					<a href="https://blog.hyperiondev.com/index.php/2024/06/12/ivaylo-genov-success-story/" data-wpel-link="internal">From Sales Analyst to Data Analyst: Ivaylo Genov&#8217;s Journey with the Data Science Bootcamp</a>
+									</li>
+					</ul>
+
+		</aside><aside id="custom_html-17" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><a href="https://www.hyperiondev.com/bootcamps/software-engineering/?utm_medium=internal&amp;utm_source=blog&amp;utm_campaign=blog%20cta%20software%20engineer" data-wpel-link="internal">
+  <img src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/cta2.jpg" class="lazy lazy-hidden " alt="become_software_eng"><noscript><img src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/cta2.jpg" class="" alt="become_software_eng"></noscript>
+</a>
+</div></aside><aside id="custom_html-16" class="widget_text widget widget_custom_html clearfix"><div class="textwidget custom-html-widget"><a href="https://www.hyperiondev.com/stories/?utm_medium=internal&amp;utm_source=blog&amp;utm_campaign=blog%20cta%20alumni%20page" data-wpel-link="internal">
+  <img src="//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/images/lazy_placeholder.gif" data-lazy-type="image" data-src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/cta1.jpg" class="lazy lazy-hidden " alt="95%"><noscript><img src="https://blog.hyperiondev.com/wp-content/uploads/2019/06/cta1.jpg" class="" alt="95%"></noscript>
+</a>
+</div></aside>
+	</section><!-- #secondary -->
+
+
+
+	</div><!-- #content -->
+
+	
+	<div id="footer" class="footer-wrap">
+
+		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
+
+			
+			<div id="footer-text" class="site-info">
+				
+	<span class="credit-link">
+		WordPress Theme: Maxwell by ThemeZee.	</span>
+
+				</div><!-- .site-info -->
+
+		</footer><!-- #colophon -->
+
+	</div>
+
+</div><!-- #page -->
+
+<style>
+.popup-heading {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: bold;
+    clear: both;
+    margin-top: 0.75em;
+    line-height: 1.4;
+}
+.popup-subheading {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1.375rem;
+    clear: both;
+    margin-bottom: 0.75em;
+    line-height: 1.4;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){$(".sgpb-main-html-content-wrapper").append("<div class='subscribe-widget'><a href='https://www.hyperiondev.com/?utm_medium=internal&utm_source=blog&utm_campaign=blog%20pop-up%20free%20trial' target='_blank'><img src='https://blog.hyperiondev.com/wp-content/uploads/2019/11/popup-header-2.png' class='' alt='popup header'/></a><div class='popup-heading'>Sign up for a free trial</div><div class='popup-subheading'> Switch to a stimulating career in tech by enrolling on a free coding course trial today.</div><button class='register-button'>Start your free trial</button><p>We respect your privacy. Your information is safe and will never be shared.</p></div>"),$(".register-button").on("click",function(){window.location="https://www.hyperiondev.com/?utm_medium=internal&utm_source=blog&utm_campaign=blog%20pop-up%20free%20trial"}),$(".register-button-header").on("click",function(){window.location="https://www.hyperiondev.com/account/register/?utm_medium=internal&utm_source=blog&utm_campaign=blog%20header%20button%20free%20trial"})});
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKTBJ4T"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script data-cfasync="false">
+  document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+      var logout_link = document.querySelectorAll('a[href*="wp-login.php?action=logout"]');
+      if (logout_link) {
+        for(var i=0; i < logout_link.length; i++) {
+          logout_link[i].addEventListener( "click", function() {
+            Intercom('shutdown');
+          });
+        }
+      }
+    }
+  };
+</script>
+<script data-cfasync="false">
+  window.intercomSettings = {"app_id":"nu2nl782","installation_type":"wordpress"};
+</script>
+<script data-cfasync="false">(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/nu2nl782';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script><script type='text/javascript' id='maxwell-navigation-js-extra'>
+/* <![CDATA[ */
+var maxwellScreenReaderText = {"expand":"Expand child menu","collapse":"Collapse child menu","icon":"<svg class=\"icon icon-expand\" aria-hidden=\"true\" role=\"img\"> <use xlink:href=\"https:\/\/blog.hyperiondev.com\/wp-content\/themes\/maxwell\/assets\/icons\/genericons-neue.svg#expand\"><\/use> <\/svg>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/themes/maxwell/assets/js/navigation.min.js?ver=20220224' id='maxwell-navigation-js'></script>
+<script type='text/javascript' id='heateor_sss_sharing_js-js-before'>
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://blog.hyperiondev.com/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://blog.hyperiondev.com/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://blog.hyperiondev.com/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 1;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
+</script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=3.3.64' id='heateor_sss_sharing_js-js'></script>
+<script type='text/javascript' id='jquery-lazyloadxt-js-extra'>
+/* <![CDATA[ */
+var a3_lazyload_params = {"apply_images":"1","apply_videos":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extra.min.js?ver=2.7.0' id='jquery-lazyloadxt-js'></script>
+<script type='text/javascript' src='//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.srcset.min.js?ver=2.7.0' id='jquery-lazyloadxt-srcset-js'></script>
+<script type='text/javascript' id='jquery-lazyloadxt-extend-js-extra'>
+/* <![CDATA[ */
+var a3_lazyload_extend_params = {"edgeY":"0","horizontal_container_classnames":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//blog.hyperiondev.com/wp-content/plugins/a3-lazy-load/assets/js/jquery.lazyloadxt.extend.js?ver=2.7.0' id='jquery-lazyloadxt-extend-js'></script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js?ver=bmrpt4p/7GSvxNh' id='enlighterjs-js'></script>
+<script type='text/javascript' id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":4,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"enlighter","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='https://blog.hyperiondev.com/wp-includes/js/wp-embed.min.js?ver=5.8.9' id='wp-embed-js'></script>
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+
+Served from: blog.hyperiondev.com @ 2024-06-20 06:20:44 by W3 Total Cache
+-->
